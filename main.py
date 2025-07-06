@@ -10,6 +10,9 @@ Created on Wed Nov 18 13:07:51 2020
 import uvicorn ##ASGI
 from fastapi import FastAPI
 
+## pickle_in = open("classifier.pkl", "rb")
+## classifier = pickle.load(pickle_in)
+
 # 2. Create the app object
 app = FastAPI()
 
